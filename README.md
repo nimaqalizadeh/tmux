@@ -3,13 +3,16 @@
 ```bash
 sudo apt install tmux
 ```
-# Cloning
+# Downloading tmux package manager (tpm)
 ```bash
-git clone https://github.com/tmux-plugins/tpm ~/tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 # type this in terminal if tmux is already running
 ```bash
 tmux source ~/tmux.conf
 ```
-git clone git@github.com:nimaqalizadeh/tmux.git
+# Now clone my config to this path
+```bash
+git clone git@github.com:nimaqalizadeh/tmux.git ~/.cofig/tmux
+```
